@@ -52,7 +52,7 @@ const generateId = () => {
 };
 
 app.get('/', (request, response) => {
-	response.send('<h1>📒 Basic notes app .</h1>');
+	response.send('<h1>📒 Basic notes rest-api.</h1>');
 });
 
 app.get('/api/notes', (request, response) => {
