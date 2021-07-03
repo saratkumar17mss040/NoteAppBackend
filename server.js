@@ -33,6 +33,7 @@ const unknownEndpoint = (request, response) => {
 // Middlewares
 
 app.use(cors());
+app.use(express.static('build'));
 app.use(express.json());
 
 morgan.token('postData', (request, response) => {
