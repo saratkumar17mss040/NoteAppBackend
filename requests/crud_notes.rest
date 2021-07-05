@@ -1,0 +1,72 @@
+# ENDPOINTS - LOCAL AND GLOBAL
+
+# BASE ROUTE
+
+GET http://localhost:3001
+
+###
+
+GET https://notes-app-rest-api.herokuapp.com/
+
+### 
+
+# READ ALL NOTES
+
+GET http://localhost:3001/api/notes
+
+###
+
+GET https://notes-app-rest-api.herokuapp.com/api/notes
+
+###
+
+# READ NOTE BY ID
+
+GET http://localhost:3001/api/notes/2
+
+###
+
+GET https://notes-app-rest-api.herokuapp.com/api/notes/2
+
+###
+
+# CREATE NOTE
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content": "Buy eggs",
+    "important": true
+}
+
+###
+
+POST https://notes-app-rest-api.herokuapp.com/api/notes
+Content-Type: application/json
+
+{
+    "content": "Buy eggs",
+    "important": true
+}
+
+###
+
+# UPDATE NOTE BY ID
+
+PUT http://localhost:3001/api/notes/1
+
+###
+
+PUT https://notes-app-rest-api.herokuapp.com/api/notes/1
+
+###
+
+# DELETE NOTE BY ID
+
+DELETE  http://localhost:3001/api/notes/4
+
+###
+
+DELETE https://notes-app-rest-api.herokuapp.com/api/notes/4
+
