@@ -22,6 +22,10 @@ GET https://notes-app-rest-api.herokuapp.com/api/notes
 
 # READ NOTE BY ID
 
+GET http://localhost:3001/api/notes/60e69c5c07d737458cc563cc
+
+###
+
 GET http://localhost:3001/api/notes/2
 
 ###
@@ -36,8 +40,8 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "content": "Buy eggs",
-    "important": true
+    "content":"",
+    "important":true
 }
 
 ###
@@ -64,7 +68,7 @@ PUT https://notes-app-rest-api.herokuapp.com/api/notes/1
 
 # DELETE NOTE BY ID
 
-DELETE  http://localhost:3001/api/notes/4
+DELETE  http://localhost:3001/api/notes/60e68bdd209ab5391c770403
 
 ###
 
